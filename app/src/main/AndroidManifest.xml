@@ -24,7 +24,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data
-                    android:host="panda.com"
+                    android:host="panda"
+                    android:path="/scheme"
+                    android:port="8989"
                     android:scheme="schemedemo" />
             </intent-filter>
         </activity>

@@ -14,7 +14,7 @@ public class SchemeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scheme);
-        tv_data = (TextView) findViewById(R.id.tv_data);
+        tv_data = findViewById(R.id.tv_data);
         Uri uri = getIntent().getData();
         StringBuilder sb = new StringBuilder();
         //唤起链接
